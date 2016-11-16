@@ -1,0 +1,350 @@
+/*public*/
+section{
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+    height: 100%;
+}
+h2{
+    font-size: 46px;
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+}
+img{
+    border:none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float: right;
+}
+
+
+/*first page*/
+#block-firstPage{
+    height: 1000px;
+    width: 100%;
+    background-color: #22b573;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.blockTitle{
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+#fstPage-down{
+    position: absolute;
+    bottom: 16px;
+    height: 18px;
+    width: 100%;
+}
+#fstPage-down a{
+    display: block;
+    height: 18px;
+    width: 32px;
+    margin: 0 auto;
+    background: url(../img/down.png) no-repeat center;
+    z-index: 1;
+}
+
+/*nav*/
+#block-nav{
+    position: relative;
+    top: 0;
+    height: 52px;
+    background-color: slategray;
+    color: white;
+}
+#block-nav a{
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 52px;
+    cursor: pointer;
+    z-index: 1;
+    color: white;
+}
+#block-nav a:hover{
+    color: cadetblue;
+}
+#logo{
+    display: inline-block;
+}
+
+/*block-intro*/
+#block-intro{
+    height: auto;
+    width: 100%;
+    background-color: coral;
+    padding: 60px 0 100px;
+}
+#intro-icon{
+    height: 300px;
+    width: 100%;
+    line-height: 300px;
+}
+.link{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s ease-in;
+}
+.link:hover{
+    -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+}
+#link-github{
+    background: url(../img/github.png)no-repeat center;
+    margin-left: 76px;
+}
+#link-linkedin{
+    background: url(../img/linkedin.png)no-repeat center;
+    margin-left: 76px;
+}
+#myPhoto{
+    height: 270px;
+    width: 270px;
+    display: inline-block;
+    margin: 0 0 0 78px;
+}
+
+#link-weibo{
+    background: url(../img/blog.png)no-repeat center;
+    margin-left: 78px;
+}
+#link-email{
+    background: url(../img/email.png)no-repeat center;
+    margin-left: 76px;
+}
+#intro-text{
+    display: inline-block;
+    margin: 80px 0 0 130px;
+    color: white;
+}
+#intro-text li{
+    height: 30px;
+}
+#intro-text ul li a{
+    display: inline-block;
+}
+#intro-text ul li a:hover{
+    border-bottom: 2px solid white;
+}
+#intro-text ul li span{
+    display: inline-block;
+    text-align: right;
+    width: 70px;
+}
+#intro-text div{
+    display: inline-block;
+    width: 550px;
+    margin-left: 120px;
+}
+
+/*block-skills*/
+#block-skill{
+    height: auto;
+    width: 100%;
+    background-color:#61bfad;
+    color: white;
+    padding-bottom: 160px;
+}
+#block-skill
+.skill-title{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+#block-skill ul{
+    display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 80px 0 0 56px;
+    border: 2px solid white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+#block-skill li{
+    height: 36px;
+    line-height: 36px;
+}
+#block-skill li:first-child{
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #333;
+}
+#block-skill li:hover{
+    background-color: #ffffff;
+    color: #333;
+    cursor: default;
+}
+
+/*block-work*/
+#block-work{
+    height: auto;
+    width: 100%;
+    background-color: #e54b4b;
+    color: white;
+    padding: 160px 0;
+}
+#block-work .work-title{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#block-work .work-main{
+    height: auto;
+    width: auto;
+    margin: 100px 0 0 60px;
+}
+#block-work .timebox{
+    margin-left: 194px;
+    font-size: 29px;
+}
+#block-work .timebox li {
+    display: inline;
+    margin-top: 5px;
+}
+
+#block-work .time1{
+    margin-left: 110px;
+}
+
+#block-work .timeline{
+    height: 27px;
+    width: 868px;
+    margin-left: 42px;
+    background: url(../img/timeline.png)no-repeat center;
+}
+#block-work .workbox{
+    margin-left: 194px;
+}
+#block-work .workbox li{
+    display: inline-block;
+    width: 310px;
+    vertical-align: top;
+}
+#block-work .workbox li label{
+    display: block;
+}
+#block-work .workbox .work-place{
+    font-size: 26px;
+    font-weight: bold;
+}
+#block-work .workbox .work-position{
+    font-size: 20px;
+}
+#block-work .workbox .work-do{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+/*#block-prj {*/
+#block-prj {
+    padding:50px 0 200px;
+    width:100%;
+    background-color:#129DE7;
+    color:#FFFFFF;
+}
+
+#block-prj .prjEXP-title {
+    width:300px;
+    margin:30px auto;
+    text-align:center;
+}
+#block-prj .prjs {
+    height:auto;
+    width:100%;
+    margin-top:100px;
+    overflow:hidden;
+}
+#block-prj .prj {
+    float:left;
+    height:auto;
+    width:240px;
+    margin-left:105px;
+}
+#block-prj .prj .prj-logo {
+    display:block;
+    margin:0 auto;
+    height:180px;
+    width:180px;
+    border-radius:50%;
+}
+
+
+
+#block-prj .prj .prj-name {
+    height:auto;
+    width:240px;
+    margin:20px 0;
+    font-size:26px;
+    text-align:center;
+}
+
+#block-prj .prj .prj-intro {
+    height:auto;
+    width:240px;
+    font-size:20px;
+    text-indent:1em
+}
+
+#block-prj #prj-WechatInfo .prj-logo{
+    background:#ED6461 url(../img/helpmechoose.png) no-repeat center;
+    border:4px solid #FFFFFF;
+}
+#block-prj #prj-FindOrg .prj-title a:hover{
+    border-bottom:3px solid white;
+}
+#block-prj #prj-FindOrg .prj-logo{
+    background:#9C58B6 url(../img/navFixed.png) no-repeat center;
+    border:4px solid #FFFFFF;
+}
+#block-prj #prj-Exm .prj-logo {
+    background: #16CC70 url(../img/integralSystem.png) no-repeat center;
+    border: 4px solid #FFFFFF;
+}
+
+
+/*block-want*/
+#block-want {
+    width:100%;
+    background-color:orangered;
+    color:#fff;
+}
+#block-want>p {
+    display:block;
+    position:relative;
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    font-size: 30px;
+    margin-top: 250px;
+}
+
